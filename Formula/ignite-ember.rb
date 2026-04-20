@@ -4,7 +4,7 @@ class IgniteEmber < Formula
   desc "AI coding assistant with multi-agent orchestration"
   homepage "https://ignite-ember.sh"
   url "https://files.pythonhosted.org/packages/source/i/ignite-ember/ignite_ember-0.1.0.tar.gz"
-  sha256 "PLACEHOLDER"
+  sha256 "680bf0ab063da39d9a40358bcc4746444e05e8800f57f2e06ee7f438644cf48a"
   license "MIT"
 
   depends_on "python@3.12"
