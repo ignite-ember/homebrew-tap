@@ -3,8 +3,8 @@ class IgniteEmber < Formula
 
   desc "AI coding assistant with multi-agent orchestration"
   homepage "https://ignite-ember.sh"
-  url "https://files.pythonhosted.org/packages/source/i/ignite-ember/ignite_ember-0.2.1.tar.gz"
-  sha256 "103afae869d60f9ec03b0146bcf4568dac57f9d812f975b7429d61776c6f42cc"
+  url "https://files.pythonhosted.org/packages/source/i/ignite-ember/ignite_ember-0.3.0.tar.gz"
+  sha256 "8deb961237b68ffa9f3bfbbd5822675a79a680855349289e7bb0b246dac55ac7"
   license "MIT"
 
   depends_on "python@3.12"
