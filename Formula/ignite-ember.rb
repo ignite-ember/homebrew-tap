@@ -3,8 +3,8 @@ class IgniteEmber < Formula
 
   desc "AI coding assistant with multi-agent orchestration"
   homepage "https://ignite-ember.sh"
-  url "https://files.pythonhosted.org/packages/source/i/ignite-ember/ignite_ember-0.5.6.tar.gz"
-  sha256 "2fd9df5d0aa897bc6932400580a7ad78d17e4b3dd70bffccfabc4341d491fb20"
+  url "https://files.pythonhosted.org/packages/source/i/ignite-ember/ignite_ember-0.5.7.tar.gz"
+  sha256 "3e1d4aee49518d5553ee24d540eb25e203e05fde7580b90e76bfa54a9e8bcd60"
   license "MIT"
 
   depends_on "git"
@@ -15,7 +15,7 @@ class IgniteEmber < Formula
 
   def install
     venv = virtualenv_create(libexec, "python3.12")
-    system libexec/"bin/python3.12", "-m", "pip", "install", "--prefer-binary", "ignite-ember==0.5.6"
+    system libexec/"bin/python3.12", "-m", "pip", "install", "--prefer-binary", "ignite-ember==0.5.7"
     bin.install_symlink libexec/"bin/ignite-ember"
 
     # Clear dylib IDs from Rust-built Python extensions so Homebrew's
