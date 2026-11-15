@@ -2,7 +2,7 @@ class IgniCore < Formula
   include Language::Python::Virtualenv
 
   desc "AI coding assistant with multi-agent orchestration"
-  homepage "https://ignite-ember.sh"
+  homepage "https://igni.sh"
   url "https://files.pythonhosted.org/packages/ea/24/8a44eb66f592359d85b64aa956f714dd044512bab0b221c527a851cc57a4/igni_core-1.0.4.tar.gz"
   sha256 "92921412d02ff30fb2a934d4460882b9b5dd13d33ae0d75307e30b8665434269"
   license "Apache-2.0"
